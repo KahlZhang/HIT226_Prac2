@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #211545;
+}
+.inner{
+    width: 100%;
+    height: auto;
+    margin-top:1%;
+}
+h1.title{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.logo{
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto -50px auto;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 4px 40px rgba(0, 0, 0, .07);
+    box-shadow: 0 4px 40px rgba(0, 0, 0, .07);
+    padding: 10px;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+}
+.logo img{
+    width: 130px;
+}
+.registration_c{
+    width: 350px;
+    height: 720px;
+    margin: 0 auto;
+    padding: 60px 25px 25px 25px;
+    background-color: #fff;
+}
+form h2{
+    text-align: center;
+    color:  #211545;
+    font-weight:bold;
+    font-size: 15px;
+    font-family: Arial;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom:10px;
+    margin-top: 5px;
+}
+.item{
+    display: inline-block;
+    width:350px;
+    line-height:30px;
+    margin-bottom: 10px;
+}
+.item label{
+    display: inline-block;
+    font-weight:bold;
+    font-family: Arial;
+    font-size:15px;
+    width: 100%;
+    text-align: left;
+    color:  #211545;
+}
+.radio{
+    width:517px;
+    height: auto;
+    font-weight:bold;
+    font-size:15px;
+    font-family: Arial;
+    color:  #211545;
+}
+.radio input{
+    width: 15px!important;
+    height:15px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.item input{
+    width: 310px;
+    background:#FBFBFB;
+    color: #211545;
+    border: none;
+    border-radius: 3px;
+    padding: 12px 20px;
+    outline: 0;
+}
+.item_button{
+    display: inline-block;
+    margin-top:20px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 15px;
+    border-radius: 3px;
+    background-color:  #211545;
+    -webkit-box-shadow: 0 2px 7px  #211545;
+    box-shadow: 0 2px 7px #211545;
+    font-weight: 700;
+    outline: 0;
+    cursor: pointer;
+}
+input:focus{
+    border: 1px solid #211545;
+}
+.item select{
+    width: 54px;
+}
+.item_i{
+    position: relative;
+    float: left;
+    width: 50%;
+}
+.item_input_i{
+    width:132px!important;
+}
+.item_input_s{
+    width: 245px!important;
+    padding-left: 50px;
+}
+.item_input_s::-webkit-input-placeholder{
+    padding-left:90px;
+}
+.input_date{
+    font-size: 15px;
+    font-family:Arial;
+    padding: 7px 20px !important;
+}
